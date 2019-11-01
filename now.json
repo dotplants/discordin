@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "discordin",
+  "scope": "dotplants",
+  "alias": ["discordin.dotplants.net"],
+  "regions": ["hnd1"],
+  "public": false,
+  "github": { "silent": true }
+}
