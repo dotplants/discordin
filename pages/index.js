@@ -8,6 +8,8 @@ import {
   Button,
   Text
 } from '@chakra-ui/core';
+import Head from 'next/head';
+
 import { invite_id, name } from '../env';
 
 const clickHandler = () => {
@@ -17,6 +19,10 @@ const clickHandler = () => {
 const Index = () => {
   return (
     <ThemeProvider>
+      <Head>
+        <title>Join to {name}</title>
+        <meta name="robots" content="noindex" />
+      </Head>
       <CSSReset />
       <Flex align="center" justify="center" pt="12">
         <Box textAlign="center" p="10" borderRadius="md" boxShadow="lg">
